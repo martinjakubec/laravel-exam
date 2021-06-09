@@ -9,20 +9,16 @@ Votre tâche est de modifier l'application comme suit :
 - Afficher le titre de la tâche
 - Afficher la description
 - Afficher la date d'ajout (created_at dans la base de données). 
-- Formatter la date comme 'le 5 juin 2020' à l'aide de la fonction '->format()' dans laravel. Astuce: '$task->created_at' retourne automatiquement une instance de Carbon: https://carbon.nesbot.com/docs/
-
+- Formatter la date comme 'le 5 juin 2020'
 (12 points)
 
 ### Ajouter un bouton qui, au clic, supprime la tâche
-- Il faut appeler une nouvelle route + vue + controller pour la 'suppression' (La suppression aura lieu dans le controlleur, à l'aide de la méthode $task->delete(): https://laravel.com/docs/8.x/eloquent#deleting-models)
+- Il faut appeler une nouvelle route + vue + controller pour la 'suppression'
 - Afficher, après la supression, une vue qui contient un message de suppression réussie.
-
 (4 points)
 
 ### Dupliquer la vue 'index' actuelle, pour en créer une qui affiche l'ensemble des tâches comme actuellement, mais en ordre alphabetique.
-
 (3 points)
 
 ### Rendez-le moi disponible via un Repository Git public (GitHub, Bitbucket...)
-
 (1 point). 
